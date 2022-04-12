@@ -22,10 +22,12 @@ const HowItWorks = () => {
 				</a>
 				.
 			</p>
-			<table>
+			<table className="table table-bordered">
 				<thead>
-					<td>Scale</td>
-					<td>U.S Grade Equiv.</td>
+					<tr>
+						<th scope="col">Scale</th>
+						<th scope="col">U.S Grade Equiv.</th>
+					</tr>
 				</thead>
 				<tbody>
 					<tr>
@@ -50,10 +52,12 @@ const HowItWorks = () => {
 				The Application first converts the marks to U.S equivalent grades and
 				then uses the following table to convert grades to grade points.
 			</p>
-			<table>
+			<table className="table table-bordered">
 				<thead>
-					<td>Letter Grade</td>
-					<td>4.0 Scale</td>
+					<tr>
+						<th scope="col">Letter Grade</th>
+						<th scope="col">4.0 Scale</th>
+					</tr>
 				</thead>
 				<tbody>
 					<tr>
